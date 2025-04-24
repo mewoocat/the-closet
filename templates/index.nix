@@ -61,6 +61,16 @@ in {
           </h4>
         </div>
 
+        <div class="h-box">
+          <img src="/assets/gameboy_advance_net.gif">
+          <img src="/assets/html-learn-it-today.gif">
+          <img src="/assets/i-like-computer.png">
+          <img src="/assets/made-with-neovim.gif">
+          <img src="/assets/powered-by-nte.png">
+          <img src="/assets/rainbow.gif">
+          <img src="/assets/powered-by-nixos.gif">
+        </div>
+
         <div class="footer">
           <a class="button" href="https://nixwebr.ing/prev/eXia">Previous</a>
           <a class="button" href="https://nixwebr.ing">Nix Webring</a>
