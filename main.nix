@@ -15,20 +15,23 @@
   */
 
   entries = [
-    ./entry1.nix
+    ./index.nix
   ];
 
   templates = [
-    ./template1.nix 
+    ./templates/index.nix 
+    #./templates/card.nix
   ];
 
-  /*
   extraFiles = [
+    { source = ./css/style.css; destination = "/style.css"; }
+    { source = "./assets/*"; destination = "/assets/"; }
+    /*
     "./data.txt" # equivalent to { source = ./data.txt; destination = "/"; }
     { source = "./image.png"; destination = "/assets/"; }
     { source = "./image2.png"; destination = "/assets/dupa.png"; }
     { source = "./data/*"; destination = "/assets/data/"; }
     { source = fetchurl { ... }; destination = "/"; }
+    */
   ];
-  */
 }

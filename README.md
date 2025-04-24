@@ -6,4 +6,5 @@ nix shell nixpkgs#darkhttpd --command sh -c "nix build -L .#.default && darkhttp
 ```
 
 Credits
-- Poz
+- Poz 
+- font: https://github.com/githubnext/monaspace

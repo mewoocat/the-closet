@@ -1,0 +1,38 @@
+body {
+    all: unset;
+    background-color: black;
+    color: white;
+    font-family: krypton;
+}
+
+@font-face {
+  font-family: krypton;
+  src: url(/assets/MonaspaceKrypton-Regular.otf);
+}
+
+p{
+    padding-left: 1rem;
+}
+
+.h-box{
+    padding: 2rem;
+    display: flex;
+}
+.v-box{
+    padding: 2rem;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    background-color: grey;
+    text-decoration: none;
+    padding: 1rem;
+    color: white
+}
+.button:hover{
+    background-color: Crimson ;
+}
