@@ -27,6 +27,11 @@ in {
       </head>
       <body>
         <div class="h-box">
+          <a class="button" href="/index.html">Home</a>
+          <a class="button" href="/entries/photoAlbum.html">Photo Album</a>
+        </div>
+
+        <div class="h-box">
           <img src="/assets/pfp.jpg" width="100" height="100">
           <p>
             Hello, I'm ${name}! Welcome to ${location}.<br>
@@ -61,14 +66,36 @@ in {
           </h4>
         </div>
 
-        <div class="h-box">
-          <img src="/assets/gameboy_advance_net.gif">
-          <img src="/assets/html-learn-it-today.gif">
+        <div class="button-box">
+          <a href="">
+            <img src="/assets/gameboy_advance_net.gif">
+          </a>
+          <a href="https://www.w3schools.com/html/">
+            <img src="/assets/html-learn-it-today.gif">
+          </a>
           <img src="/assets/i-like-computer.png">
-          <img src="/assets/made-with-neovim.gif">
-          <img src="/assets/powered-by-nte.png">
+          <a href="https://neovim.io/">
+            <img src="/assets/made-with-neovim.gif">
+          </a>
+          <a href="https://git.poz.pet/poz/nte">
+            <img src="/assets/powered-by-nte.png">
+          </a>
           <img src="/assets/rainbow.gif">
-          <img src="/assets/powered-by-nixos.gif">
+          <a href="https://nixos.org/">
+            <img src="/assets/powered-by-nixos.gif">
+          </a>
+          <img src="/assets/bestviewedcomp.gif"> 
+          <img src="/assets/3ds.png">
+          <img src="/assets/bvwe.gif">
+          <img src="/assets/gb.gif">
+          <img src="/assets/gba_now.png">
+          <img src="/assets/gbc.gif">
+          <img src="/assets/goodnight.gif">
+          <img src="/assets/n64.gif">
+          <img src="/assets/psbutton.gif">
+          <img src="/assets/sanehtml.gif">
+          <img src="/assets/wii_button.gif">
+          <iframe src="//incr.easrng.net/badge?key=mewoocat" style="background: url(//incr.easrng.net/bg.gif)" title="increment badge" width="88" height="31" frameborder="0"></iframe>
         </div>
 
         <div class="footer">

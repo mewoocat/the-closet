@@ -16,16 +16,19 @@
 
   entries = [
     ./index.nix
+    ./entries/photoAlbum.nix
   ];
 
   templates = [
     ./templates/index.nix 
+    ./templates/photoAlbum.nix 
     #./templates/card.nix
   ];
 
   extraFiles = [
     { source = ./css/style.css; destination = "/style.css"; }
     { source = "./assets/*"; destination = "/assets/"; }
+    { source = "./photos/*"; destination = "/photos/"; }
     /*
     "./data.txt" # equivalent to { source = ./data.txt; destination = "/"; }
     { source = "./image.png"; destination = "/assets/"; }

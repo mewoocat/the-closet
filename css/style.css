@@ -21,6 +21,11 @@ p{
 .v-box{
     padding: 2rem;
 }
+.button-box{
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .footer{
     display: flex;
@@ -35,4 +40,8 @@ p{
 }
 .button:hover{
     background-color: Crimson ;
+}
+
+.photoAlbum{
+    padding: 2rem;
 }
